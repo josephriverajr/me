@@ -110,7 +110,7 @@ h6 {
     margin-bottom: 10px;
     padding: 4px 0px;
     display: inline-block;
-        width: 16%;
+    width: 16% !important;
 }
 
 
@@ -292,7 +292,7 @@ span svg{
 }
 
 li img {
-    width: 50%;
+    width: 50% !important;
     display: inline-table;
 }
 .portfolio-item .caption .caption-content p {
