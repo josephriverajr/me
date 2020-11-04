@@ -23,9 +23,12 @@
 
 </head>
 
+
 <body id="page-top">
 
-
+<div id="loading">
+  <iframe src="https://giphy.com/embed/2zoCrihrueMUVOZlTx" width="480" height="444" frameBorder="0" style="width: 100%;" class="giphy-embed" allowFullScreen></iframe>
+</div>
   <!-- Navigation -->
   <a class="menu-toggle rounded" href="#">
     <i class="fas fa-bars"></i>
@@ -200,8 +203,9 @@
   <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
     <i class="fas fa-angle-up"></i>
   </a>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
+    <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -210,7 +214,14 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/stylish-portfolio.min.js"></script>
-
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      console.log( "ready!" );
+        setTimeout(function() { 
+           $("#loading").fadeOut("slow");
+           $("#page-top").css("display","unset");
+        }, 1000);
+          });
+  </script>
 </body>
-
 </html>

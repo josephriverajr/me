@@ -260,7 +260,11 @@ h6 {
   max-width: 530px;
   margin: auto auto 1rem;
 }
-
+#loading{
+      height: 100% !important;
+    overflow: hidden;
+    margin: 122px !important;
+}
 .portfolio-item .caption {
   display: flex;
   height: 100%;
@@ -286,7 +290,9 @@ h6 {
   font-weight: 300;
   font-size: 1.2rem;
 }
-
+iframe{
+    pointer-events: none;
+}
 @media (min-width: 992px) {
   .portfolio-item {
     max-width: none;
