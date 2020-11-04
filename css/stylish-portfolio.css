@@ -90,9 +90,9 @@ h6 {
     border-radius: 4px;
 }
 
-.masthead
-{    background: url(me/img/bg.png);
-    margin-top: 3vw;
+body
+{    
+    background: url(/me/img/bg.png);
     height: 100%;
     background-attachment: fixed!important;
     background-position: left!important;
