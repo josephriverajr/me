@@ -89,6 +89,16 @@ h6 {
     padding: 4px 10px;
     border-radius: 4px;
 }
+
+.masthead
+{    background: url(/img/bg.jpg);
+    margin-top: 3vw;
+    height: 100%;
+    background-attachment: fixed!important;
+    background-position: left!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
 .mh-promo span {
     background-color:rgb(29, 128, 159) !important;
     font-size: 16px;
